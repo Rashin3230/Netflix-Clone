@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "../../axios";
-import { imageUrl,API_KEY } from "../../Constants/constants";
+import { imageUrl, API_KEY } from "../../Constants/constants";
 import "./RowPost.css";
 import YouTube from "react-youtube";
 

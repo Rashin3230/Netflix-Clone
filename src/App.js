@@ -8,8 +8,8 @@ import { originals, action, comedy, horror, romance, documentry } from "./urls";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Banner />
+      <Navbar /> //Navbar
+      <Banner /> //Banner
       <RowPost url={originals} title="Netflix Originals" />
       <RowPost url={action} title="Action Movies" isSmall />
       <RowPost url={comedy} title="Comedy Movies" isSmall />
